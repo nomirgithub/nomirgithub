@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+}
+
+#rayDiv{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    border-style: dotted;
+    animation-name: amblitude;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes amblitude {
+    to{
+       transform: rotateZ(360deg); 
+       
+    }
+}
